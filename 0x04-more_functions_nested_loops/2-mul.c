@@ -3,13 +3,13 @@
 /**
  * mul - function declaration
  *
- * Description: calculate multplication of two integer
+ * Description: calculate multplication of 2 integer
  *
  * @a: first integer
  *
  * @b: second integer
  *
- * Return: the output gonna be 
+ * Return: the result
  */
 
 int mul(int a, int b)
