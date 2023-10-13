@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * Print diagonal - Function name
+ * print_diagonal - Function name
  *
  * Description: print diagonal based on n
  *
  * @n: number based on
  *
- * Return: Nada it's void again
+ * Return: Nothing it's void
  */
 
 void print_diagonal(int n)
