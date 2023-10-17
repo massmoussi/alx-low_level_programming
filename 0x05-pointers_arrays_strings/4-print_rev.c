@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * Print_rev - Function Declaration
+ * print_rev - Function Declaration
  *
  * Description: function print in reverse
  *
