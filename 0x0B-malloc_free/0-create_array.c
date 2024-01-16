@@ -7,6 +7,7 @@
  *
  * Return: A pointer to the allocated array, or NULL if it fails.
  */
+
 char *create_array(unsigned int size, char c)
 {
 	char *array;
