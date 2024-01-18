@@ -1,13 +1,15 @@
 #include "main.h"
 
 /**
- * _calloc - Allocates memory for an array and initializes it to zero.
+ * _calloc - function to  initialize the allocated memory to 0
  *
- * @nmemb: Number of elements in the array.
- * @size: Size in bytes of each element.
+ * @nmemb: elements number of the array
  *
- * Return: Pointer to the allocated and initialized memory.
+ * @size: size in byte of each element
+ *
+ * Return: it's void
  */
+
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
 	int *p;
@@ -25,5 +27,6 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	}
 
 	return (p);
-}
 
+
+}

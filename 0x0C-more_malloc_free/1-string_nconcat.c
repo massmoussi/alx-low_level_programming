@@ -1,14 +1,17 @@
 #include "main.h"
 
 /**
- * string_nconcat - Concatenates two strings based on a specified number of bytes.
+ * string_nconcat - function to concat 2 strings based on n bytes
  *
- * @s1: Pointer to the first string.
- * @s2: Pointer to the second string.
- * @n: Number of bytes from the second string to concatenate.
+ * @s1: pointer to first string;
  *
- * Return: Pointer to the new concatenated string.
+ * @s2: pointer to second string
+ *
+ * @n: number of bytes
+ *
+ * Return: new concated string
  */
+
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	char *string;
@@ -47,5 +50,5 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	string[i] = '\0';
 
 	return (string);
-}
 
+}

@@ -1,19 +1,19 @@
 #include "main.h"
 
 /**
- * array_range - createe array of iinteger using malloc
+ * array_range - create array of integer using malloc
  *
- * @min: minimum  range of arrayy
+ * @min: minimum range of array
  *
- * @max: maximum  range of arrayy
+ * @max: maximum range of array
  *
- * Return: array  pointerr
+ * Return: array pointer
  */
 
 int *array_range(int min, int max)
 {
-	int *arr;	
 	int i;
+	int *arr;
 
 	if (min > max)
 	{
