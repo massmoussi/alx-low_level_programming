@@ -1,14 +1,14 @@
 #include <stdio.h>
 
 /**
- * main - lbadia
+ * main - entry point
  *
- * Description: program tayaktab nafss smiya 
+ * Description: Program print the file name
  *
- * Return : 0 rajaa smiya dyal file
+ * Return: 0 Always Success wich mwan f name
  */
 
-int main(void)	
+int main(void)
 {
 	printf("%s\n", __FILE__);
 	return (0);
