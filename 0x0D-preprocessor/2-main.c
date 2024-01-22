@@ -1,13 +1,16 @@
 #include <stdio.h>
 
 /**
- * anjrab had la3jab bohdi
+ * main - lbadia
  *
- * retun file name.
+ * Description: program tayaktab nafss smiya 
+ *
+ * Return : 0 rajaa smiya dyal file
  */
 
 int main(void)
 {
-	printf("%s\n",__FILE__);
-	retun 0;
+printf("%\n", __FILE__);
+retun (0);
 }
+
