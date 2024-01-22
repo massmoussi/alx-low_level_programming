@@ -10,7 +10,7 @@
 
 int main(void)
 {
-printf("%\n", __FILE__);
-retun (0);
+printf("%s\n", __FILE__);
+return (0);
 }
 
