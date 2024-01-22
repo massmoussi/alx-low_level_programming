@@ -11,4 +11,5 @@
 int main(void)
 {
 	printf("%s\n",__FILE__);
+	retun 0;
 }
