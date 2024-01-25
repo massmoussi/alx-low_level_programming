@@ -1,27 +1,30 @@
 #include "variadic_functions.h"
+
 /**
- * main - entry var function
+ * sum_them_all - variadic function declaration
  *
- * Discr: variadec param fun that print all param
+ * Description: function sum all integer in arguments
  *
- * return: 0 lik always
+ * @n: number of argument
+ *
+ * Return: Total of sum calculation
  */
+
 int sum_them_all(const unsigned int n, ...)
 {
-	va_list numb;
+	va_list numbers;
 
 	unsigned int i;
 	int sum = 0;
 
-	va_start(numb, n);
+	va_start(numbers, n);
 
 	for (i = 0; i < n; i++)
 	{
-		sum += va_arg(numb, int);
+		sum += va_arg(numbers, int);
 	}
 
-	va_end(numb);
+	va_end(numbers);
 
 	return (sum);
 }
-
