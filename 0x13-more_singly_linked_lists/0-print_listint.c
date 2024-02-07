@@ -1,11 +1,11 @@
-#include <lists.h>
+#include "lists.h"
 
 /**
- * print_listint - func t print an int S L list
+ * print_listint - function to print an int single linked list
  *
- * @h: ptr t the H of the list
+ * @h: pointer to the head of the list
  *
- * Return: Nodes N
+ * Return: number of nodes
  */
 
 size_t print_listint(const listint_t *h)
@@ -18,8 +18,8 @@ size_t print_listint(const listint_t *h)
 	while (h != NULL)
 	{
 		printf("%d\n", h->n);
+		h = h->next;
 		count++;
-		h = h->next
 	}
 
 	return (count);
