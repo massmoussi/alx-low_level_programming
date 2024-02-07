@@ -1,11 +1,13 @@
 #include "lists.h"
 
 /**
- * add_nodeint - funct return modes number
+ * add_nodeint_end - Func at node at end of list
  *
- * @h: ptr t H of the list
+ * @head: ptr to ptr to h of the list
  *
- * Return: Nodes N
+ * @n: int to add in node
+ *
+ * Return: N list
  */
 
 listint_t *add_nodeint_end(listint_t **head, const int n)
