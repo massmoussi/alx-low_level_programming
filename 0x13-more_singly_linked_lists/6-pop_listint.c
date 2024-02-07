@@ -1,9 +1,9 @@
 #include "lists.h"
 
 /**
- * pop_listint - Funct to delete First node of the list
+ * pop_listint - Function to delete First node of the list
  *
- * @head: ptr to ptr to First node
+ * @head: pointer to pointer to First node
  *
  * Return: Deleted Element
  */
