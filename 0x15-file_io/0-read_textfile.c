@@ -1,19 +1,19 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
- * read_textfile - func rd certain byt from a f
+ * read_textfile - func rd certain byte from a file
  *
- * @filename: ptr to f
+ * @filename: pntr to file
  *
- * @letters: numb of byt that should rd
+ * @letters: numb of bytes that should read
  *
- * Return: Numb of letter rdd
+ * Return: Numb of letter rd
  */
 
 ssize_t read_textfile(const char *filename, size_t letters)
 {
-	int file;
 	char *buffer;
+	int file;
 	ssize_t count, reading;
 
 	if (filename == NULL)
